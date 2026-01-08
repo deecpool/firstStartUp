@@ -2,15 +2,16 @@
   "name": "firststartup",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./server/core.mjs",
+  "desc" : "This application created only node js modules without NPM (Clear Node)",
   "scripts": {
-    "start": "node ./server/core.js",
-    "dev" : "nodemon ./server/core.js"
+    "start": "node ./server/core.mjs",
+    "dev" : "nodemon ./server/core.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "dotenv": "^17.2.3",
     "nodemon": "^3.1.11"
